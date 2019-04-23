@@ -11,7 +11,7 @@ A `zsh` theme optimized for people who use:
 
 Clone the theme in the zsh custom theme dir:
 ```bash
-git clone https://github.com/lambda-custom-zsh-theme.git $ZSH_CUSTOM/themes/lambda-custom-zsh-theme        
+git clone https://github.com/onlurking/lambda-custom-zsh-theme.git $ZSH_CUSTOM/themes/lambda-custom-zsh-theme        
 ```
 
 Symlink `lambda-mod.zsh-theme` to your oh-my-zsh custom themes directory:
