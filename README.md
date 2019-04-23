@@ -1,21 +1,26 @@
-# Lambda (Mod) ZSH Theme
 
-A ZSH theme optimized for people who use:
+<h1 align="center">
+  <br>Lambda (Custom) ZSH Theme<br>
+</h1>
+
+A `zsh` theme optimized for people who use:
 - Git
 - Unicode-compatible fonts and terminals
 
----
+## Installation
 
-![Screenshot](https://raw.githubusercontent.com/halfo/lambda-mod-zsh-theme/master/screenshot.png)
-
-## Configuring the amount of dir levels
-
-By default only the last three directories are shown in the prompt. The amount of
-levels can be configured by setting `LAMBDA_MOD_N_DIR_LEVELS` before loading the prompt:
-
-``` zsh
-# ~/.zshrc
-export LAMBDA_MOD_N_DIR_LEVELS=10
-
-# load `lambda-mod` and `oh-my-zsh`
+Clone the theme in the zsh custom theme dir:
+```bash
+git clone https://github.com/lambda-custom-zsh-theme.git $ZSH_CUSTOM/themes/lambda-custom-zsh-theme        
 ```
+
+Symlink `lambda-mod.zsh-theme` to your oh-my-zsh custom themes directory:
+```
+ln -s "$ZSH_CUSTOM/themes/lambda-custom-zsh-theme/lambda-mod.zsh-theme" "$ZSH_CUSTOM/themes/lambda-mod.zsh-theme"
+```
+
+Set `ZSH_THEME="lambda-mod"` in your .zshrc.
+
+## Screenshot
+
+![prompt](https://i.imgur.com/RGov4Hm.png)
